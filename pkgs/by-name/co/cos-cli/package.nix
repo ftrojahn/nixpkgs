@@ -8,16 +8,16 @@
 }:
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "cos-cli";
-  version = "0.1.0-git";
+  version = "0.5.1-git";
 
   src = fetchFromGitHub {
     owner = "estin";
     repo = "cos-cli";
-    rev = "9c23bd2f66b05e54e36a82f6dc93c14a62fc054f";
-    hash = "sha256-xTRJjgi3FDCKoxRdQU6Xuf2vV5PEZXWhNcon17LIbfw=";
+    rev = "fe8c52016888302d6239ef53f1dbf876d8552dc2";
+    hash = "sha256-IN+36GlQKyCbvK83lfospUWeaghqZ/sKtJZga8lIzF4=";
   };
 
-  cargoHash = "sha256-11jOmXTkp/J0j7BZuLltnSk4I5Ssj8iyeRvE2pYXDhw=";
+  cargoHash = "sha256-QR2+CbNWrIMpxtiAV+cyHnHYtiYe6lz+9RKvsIMhkdQ=";
 
   doInstallCheck = true;
 
